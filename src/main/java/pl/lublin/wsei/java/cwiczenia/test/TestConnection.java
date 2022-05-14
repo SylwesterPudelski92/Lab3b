@@ -11,7 +11,7 @@ public class TestConnection {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         String serverName = "localHost";
-        String database = "mycb";
+        String database = "mydb";
         Number portNumber = 3306;
         Connection conn = null;
         Properties connectionProps = new Properties();
