@@ -17,7 +17,7 @@ public class TestConnection {
         Properties connectionProps = new Properties();
         connectionProps.put("user", "root");
         connectionProps.put("password", "Wojsko11Wojsko");
-        connectionProps.put("serverTimezone", "Europe/Warsaw");
+        connectionProps.put("serverTimezone", "kkkkkkk");
 
         conn = DriverManager.getConnection(
                 "jdbc:mysql://" + serverName + ":" + portNumber + "/"+ database, connectionProps);
